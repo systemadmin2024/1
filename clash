@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 22:40:36
+# 创建时间：2024-04-26 23:09:09
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：2
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,6 +87,7 @@ dns:
 
 proxies:
   - {"name":"韩国-首尔01（IPV6）","type":"vless","server":"kr01.37313.cc","port":30152,"udp":true,"uuid":"dfc90101-90ef-4d70-c0f1-d01ce42f1a17","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"},"client-fingerprint":"chrome"}
+  - {"name":"韩国-首尔03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"02b37998-b9b8-4cd7-ba46-8429fb58ac07","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -94,6 +95,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -101,6 +103,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -108,24 +111,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,6 +156,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 韩国-首尔01（IPV6）
+      - 韩国-首尔03
 
 rules:
 # 本地/局域网地址
