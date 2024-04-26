@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 12:51:30
+# 创建时间：2024-04-26 12:59:34
 # 使用模版：V2RaySE 默认模版
 # 节点数量：9
 ####################################
@@ -93,7 +93,7 @@ proxies:
   - {"name":"法国-马赛","type":"hysteria2","server":"fr-marseille-oracle-07e914.ip1.shop","port":29452,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"意大利-米兰","type":"hysteria2","server":"it-milan-oracle-2b2d63.ip1.shop","port":29852,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"日本-大阪","type":"hysteria2","server":"jp-osaka-oracle-d9311f.ip1.shop","port":47802,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"日本-东京","type":"hysteria2","server":"jp-tokyo-oracle-5c954d.ip1.shop","port":36305,"password":"4f64095d","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"日本-东京","type":"hysteria2","server":"jp-tokyo-oracle-5c954d.ip1.shop","port":36302,"password":"0f33a197","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"韩国-春川","type":"hysteria2","server":"kr-chuncheon-oracle-3dd360.ip1.shop","port":42602,"password":"e4c4e1a6","sni":"www.bing.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
