@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 13:11:45
+# 创建时间：2024-04-26 13:43:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：1
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,95 +86,46 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"澳大利亚-悉尼","type":"hysteria2","server":"au-sydney-oracle-e5fdfa.ip1.shop","port":37002,"password":"9280c09b","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"巴西-圣保罗","type":"hysteria2","server":"br-saopaolo-oracle-6788e0.ip1.shop","port":63552,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"加拿大-多伦多","type":"hysteria2","server":"ca-toronto-oracle-61f2af.ip1.shop","port":54605,"password":"97d939b0","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"德国-法兰克福","type":"hysteria2","server":"de-frankfurt-oracle-293613.ip1.shop","port":50352,"password":"41ba7d48","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"法国-马赛","type":"hysteria2","server":"fr-marseille-oracle-07e914.ip1.shop","port":29452,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"意大利-米兰","type":"hysteria2","server":"it-milan-oracle-2b2d63.ip1.shop","port":29852,"password":"7e4cbd08-0366-4d87-b543-f10678cdd62f","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"日本-东京","type":"hysteria2","server":"jp-tokyo-oracle-5c954d.ip1.shop","port":36302,"password":"0f33a197","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"韩国-春川","type":"hysteria2","server":"kr-chuncheon-oracle-3dd360.ip1.shop","port":42602,"password":"e4c4e1a6","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"韩国-首尔03","type":"hysteria2","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"password":"ad64e0d1","sni":"www.bing.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,14 +148,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 澳大利亚-悉尼
-      - 巴西-圣保罗
-      - 加拿大-多伦多
-      - 德国-法兰克福
-      - 法国-马赛
-      - 意大利-米兰
-      - 日本-东京
-      - 韩国-春川
+      - 韩国-首尔03
 
 rules:
 # 本地/局域网地址
