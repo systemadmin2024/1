@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 13:43:51
+# 创建时间：2024-04-26 15:03:18
 # 使用模版：V2RaySE 默认模版
 # 节点数量：1
 ####################################
@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"韩国-首尔03","type":"hysteria2","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"password":"ad64e0d1","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"韩国-首尔03","type":"hysteria2","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"password":"4Xda9GQlTIdICTaKvpmjo6JQ1i0","sni":"bing.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
