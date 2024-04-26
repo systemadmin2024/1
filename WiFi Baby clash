@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 17:07:45
+# 创建时间：2024-04-26 20:24:36
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -87,7 +87,7 @@ dns:
 
 proxies:
   - {"name":"韩国-首尔01(IPV6)","type":"vless","server":"kr01.37313.cc","port":30152,"udp":true,"uuid":"4f966f55-4217-49ee-efbe-3f49ecc845c9","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"476d60a5-28b1-46f8-ac67-d03d62aae39c","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM"},"client-fingerprint":"chrome"}
+  - {"name":"韩国-首尔03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"24b2904e-37e8-47a1-df83-67b887187b6b","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA"},"client-fingerprint":"chrome"}
   - {"name":"韩国-首尔05","type":"vless","server":"kr-seoul-oracle-64dc93.ip1.shop","port":46252,"udp":true,"uuid":"2cb9b451-2a89-49b1-dd16-07ba510f4eb2","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
