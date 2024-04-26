@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 16:51:10
+# 创建时间：2024-04-26 17:05:35
 # 使用模版：V2RaySE 默认模版
-# 节点数量：2
+# 节点数量：3
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,6 +87,7 @@ dns:
 
 proxies:
   - {"name":"韩国-首尔01(IPV6)","type":"vless","server":"kr01.37313.cc","port":30152,"udp":true,"uuid":"4f966f55-4217-49ee-efbe-3f49ecc845c9","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
+  - {"name":"韩国-首尔03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"476d60a5-28b1-46f8-ac67-d03d62aae39c","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM"},"client-fingerprint":"chrome"}
   - {"name":"韩国-首尔05","type":"vless","server":"kr-seoul-oracle-64dc93.ip1.shop","port":46252,"udp":true,"uuid":"2cb9b451-2a89-49b1-dd16-07ba510f4eb2","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -95,6 +96,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: ♻️ 自动选择
     type: url-test
@@ -103,6 +105,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: 🌍 国外媒体
     type: select
@@ -111,6 +114,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: 📲 电报信息
     type: select
@@ -118,6 +122,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: Ⓜ️ 微软服务
     type: select
@@ -125,6 +130,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: 🍎 苹果服务
     type: select
@@ -132,6 +138,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
   - name: 🎯 全球直连
     type: select
@@ -156,6 +163,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 韩国-首尔01(IPV6)
+      - 韩国-首尔03
       - 韩国-首尔05
 
 rules:
