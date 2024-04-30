@@ -94,24 +94,30 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -122,60 +128,75 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
       "tag": "🌌 Google",
       "type": "selector",
       "outbounds": [
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
       "tag": "📟 Telegram",
       "type": "selector",
       "outbounds": [
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
       "tag": "🐦 Twitter",
       "type": "selector",
       "outbounds": [
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
       "tag": "👤 Facebook",
       "type": "selector",
       "outbounds": [
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -183,12 +204,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -196,12 +220,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -209,12 +236,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -222,12 +252,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -242,12 +275,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -255,12 +291,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "韩国-首尔01(IPV6)",
-        "韩国-首尔03",
-        "韩国-首尔05",
-        "韩国-首尔06(IPV6)",
-        "韩国-首尔08(IPV6)",
-        "韩国-首尔10"
+        "KR-Seoul-01",
+        "KR-Seoul-01(V6)",
+        "KR-Seoul-03",
+        "KR-Seoul-05",
+        "KR-Seoul-06",
+        "KR-Seoul-06(V6)",
+        "KR-Seoul-08",
+        "KR-Seoul-08(V6)",
+        "KR-Seoul-10"
       ]
     },
     {
@@ -292,6 +331,26 @@
       "type": "dns"
     },
     {
+      "server": "kr-seoul-oracle-86a6ed.ip1.shop",
+      "server_port": 30152,
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"
+        }
+      },
+      "uuid": "dfc90101-90ef-4d70-c0f1-d01ce42f1a17",
+      "flow": "xtls-rprx-vision",
+      "tag": "KR-Seoul-01",
+      "type": "vless"
+    },
+    {
       "server": "kr01.37313.cc",
       "server_port": 30152,
       "tls": {
@@ -308,7 +367,7 @@
       },
       "uuid": "dfc90101-90ef-4d70-c0f1-d01ce42f1a17",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔01(IPV6)",
+      "tag": "KR-Seoul-01(V6)",
       "type": "vless"
     },
     {
@@ -328,7 +387,7 @@
       },
       "uuid": "02b37998-b9b8-4cd7-ba46-8429fb58ac07",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔03",
+      "tag": "KR-Seoul-03",
       "type": "vless"
     },
     {
@@ -348,7 +407,27 @@
       },
       "uuid": "e10e30fe-96cc-42e4-f6c5-6c5efc9564ab",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔05",
+      "tag": "KR-Seoul-05",
+      "type": "vless"
+    },
+    {
+      "server": "kr-seoul-oracle-f0b622.ip1.shop",
+      "server_port": 45852,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.lovelive-anime.jp",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"
+        }
+      },
+      "uuid": "966d7592-5260-4894-c941-5b171da58a08",
+      "flow": "xtls-rprx-vision",
+      "tag": "KR-Seoul-06",
       "type": "vless"
     },
     {
@@ -368,7 +447,27 @@
       },
       "uuid": "966d7592-5260-4894-c941-5b171da58a08",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔06(IPV6)",
+      "tag": "KR-Seoul-06(V6)",
+      "type": "vless"
+    },
+    {
+      "server": "kr-seoul-oracle-ced361.ip1.shop",
+      "server_port": 41952,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"
+        }
+      },
+      "uuid": "ab136cc1-62c1-4e0b-acad-ccbe4036e22e",
+      "flow": "xtls-rprx-vision",
+      "tag": "KR-Seoul-08",
       "type": "vless"
     },
     {
@@ -388,7 +487,7 @@
       },
       "uuid": "ab136cc1-62c1-4e0b-acad-ccbe4036e22e",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔08(IPV6)",
+      "tag": "KR-Seoul-08(V6)",
       "type": "vless"
     },
     {
@@ -408,7 +507,7 @@
       },
       "uuid": "a6ad0367-206b-425d-843f-3aa9dad7d2df",
       "flow": "xtls-rprx-vision",
-      "tag": "韩国-首尔10",
+      "tag": "KR-Seoul-10",
       "type": "vless"
     }
   ],
