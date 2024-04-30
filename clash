@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-26 23:46:01
+# 创建时间：2024-04-30 15:23:03
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：9
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,81 +86,102 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"韩国-首尔01(IPV6)","type":"vless","server":"kr01.37313.cc","port":30152,"udp":true,"uuid":"dfc90101-90ef-4d70-c0f1-d01ce42f1a17","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"02b37998-b9b8-4cd7-ba46-8429fb58ac07","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔05","type":"vless","server":"kr-seoul-oracle-64dc93.ip1.shop","port":46252,"udp":true,"uuid":"e10e30fe-96cc-42e4-f6c5-6c5efc9564ab","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔06(IPV6)","type":"vless","server":"kr06.37313.cc","port":45852,"udp":true,"uuid":"966d7592-5260-4894-c941-5b171da58a08","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔08(IPV6)","type":"vless","server":"kr08.37313.cc","port":41952,"udp":true,"uuid":"ab136cc1-62c1-4e0b-acad-ccbe4036e22e","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
-  - {"name":"韩国-首尔10","type":"vless","server":"kr-seoul-oracle-b0566e.ip1.shop","port":22702,"udp":true,"uuid":"a6ad0367-206b-425d-843f-3aa9dad7d2df","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-01","type":"vless","server":"kr-seoul-oracle-86a6ed.ip1.shop","port":30152,"udp":true,"uuid":"dfc90101-90ef-4d70-c0f1-d01ce42f1a17","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-01(V6)","type":"vless","server":"kr01.37313.cc","port":30152,"udp":true,"uuid":"dfc90101-90ef-4d70-c0f1-d01ce42f1a17","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-03","type":"vless","server":"kr-seoul-oracle-d9ce50.ip1.shop","port":41252,"udp":true,"uuid":"02b37998-b9b8-4cd7-ba46-8429fb58ac07","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-05","type":"vless","server":"kr-seoul-oracle-64dc93.ip1.shop","port":46252,"udp":true,"uuid":"e10e30fe-96cc-42e4-f6c5-6c5efc9564ab","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-06","type":"vless","server":"kr-seoul-oracle-f0b622.ip1.shop","port":45852,"udp":true,"uuid":"966d7592-5260-4894-c941-5b171da58a08","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-06(V6)","type":"vless","server":"kr06.37313.cc","port":45852,"udp":true,"uuid":"966d7592-5260-4894-c941-5b171da58a08","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-08","type":"vless","server":"kr-seoul-oracle-ced361.ip1.shop","port":41952,"udp":true,"uuid":"ab136cc1-62c1-4e0b-acad-ccbe4036e22e","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-08(V6)","type":"vless","server":"kr08.37313.cc","port":41952,"udp":true,"uuid":"ab136cc1-62c1-4e0b-acad-ccbe4036e22e","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
+  - {"name":"KR-Seoul-10","type":"vless","server":"kr-seoul-oracle-b0566e.ip1.shop","port":22702,"udp":true,"uuid":"a6ad0367-206b-425d-843f-3aa9dad7d2df","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,12 +204,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-首尔01(IPV6)
-      - 韩国-首尔03
-      - 韩国-首尔05
-      - 韩国-首尔06(IPV6)
-      - 韩国-首尔08(IPV6)
-      - 韩国-首尔10
+      - KR-Seoul-01
+      - KR-Seoul-01(V6)
+      - KR-Seoul-03
+      - KR-Seoul-05
+      - KR-Seoul-06
+      - KR-Seoul-06(V6)
+      - KR-Seoul-08
+      - KR-Seoul-08(V6)
+      - KR-Seoul-10
 
 rules:
 # 本地/局域网地址
